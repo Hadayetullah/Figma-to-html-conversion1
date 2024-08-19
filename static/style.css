@@ -10,6 +10,8 @@ body {
 }
 
 .hero {
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 100vh;
     background-image: url(../static/images/designer_1.png);
@@ -18,6 +20,8 @@ body {
     background-position-x: right;
     background-size: 60% 100%;
 }
+
+/* Navigation bar start */
 .navbar {
     position: fixed;
     width: 100%;
@@ -56,7 +60,6 @@ body {
     line-height: 24px;
     color: #505F98;
 }
-
 .nav__button {
     display: flex;
     justify-content: center;
@@ -71,3 +74,63 @@ body {
     font-weight: 500;
     border-radius: 0.325rem;
 }
+/* Navigation bar end */
+
+/* -------------------- */
+
+/* Hero section start */
+.hero__section {
+    height: 100%;
+    margin: 0 8rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.hero__section .hero__content{
+   min-width: 180px;
+   max-width: 600px;
+}
+.hero__section .hero__content h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    word-spacing: 12px;
+    color: #091133;
+}
+.hero__section .hero__content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 3px;
+    color: #505F98;
+}
+.hero__section .hero__content__bottom{
+    min-width: 0;
+    max-width: 420px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 1.5rem;
+}
+.hero__section .hero__content__bottom a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: #111B47;
+    font-size: 16px;
+    word-spacing: 3px;
+    border-radius: 0.25rem;
+    border: 1px solid #091133;
+    box-shadow: 0 0 3px #091133;
+}
+.hero__section .hero__content__bottom a:last-child{
+    background-color: #fff;
+    color: #091133;
+}
+/* Hero section end */
