@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../static/images/designer_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-size: 60% 100%;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+.nav {
+    height: 100%;
+    margin: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__right {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__nenu {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    color: #505F98;
+}
+.nav__nenu a {
+    font-size: 14px;
+    line-height: 24;
+}
+
+/* .nav .container__space {
+    margin: 0 4rem;
+} */
